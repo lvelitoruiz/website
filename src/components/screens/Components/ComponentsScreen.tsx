@@ -13,9 +13,9 @@ export const ComponentsScreen = () => {
       <div className='body-base'>
         <Title stroke={'#424B68'} type={'extra-title'} text={'LUIS'} width={'w-[120px]'} />
         <Title stroke={'#ED6459'} type={'extra-title-orange'} text={'WORK'} width={'w-[170px]'} />
-        <p className='p-4 m-4'> 
+        {/* <p className='p-4 m-4'> 
           <MenuLink text={'Home'} link={'home.html'} />
-        </p>
+        </p> */}
         <p>
           <Links text={'Normal Link'} link={'home.html'} classes={'inline-block relative lato text-base normal-link italic'} />
         </p>
