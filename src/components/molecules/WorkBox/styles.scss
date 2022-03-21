@@ -1,0 +1,26 @@
+.work-box {
+  
+  div {
+    transform: translateY(100%);
+    transition: all ease-in-out 0.5s;
+  }
+
+  h4,p {
+    opacity: 0;
+    transform: translateY(140px);
+    transition: all ease-in-out 1.2s;
+  }
+
+  &:hover {
+    div {
+      transform: translateY(0);
+      transition: all ease-in-out 0.5s;
+    }
+
+    h4,p {
+      opacity: 1;
+      transform: translateY(0);
+      transition: all ease-in-out 1.2s;
+    }
+  }
+}

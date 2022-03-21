@@ -1,24 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Title } from './components/atoms/Tiitle/Title';
 import './App.css';
+import { AppRouter } from './routers/AppRouter';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='bg-white md:p-6 xl:p-11 overflow-hidden w-screen h-screen relative'>
+      <div className='w-full h-full overflow-hidden relative bg-web-gray'>
+        <AppRouter />
+      </div>
     </div>
   );
 }
