@@ -68,7 +68,7 @@ export const HomeScreen: FunctionComponent<IProps> = () => {
     <>
       <div className='fixed xl:w-[calc(100vw_-_88px)] xl:h-[calc(100vh_-_88px)] md:w-[calc(100vw_-_48px)] md:h-[calc(100vh_-_48px)] h-screen w-screen xl:m-[44px] md:m-[24px] top-0 left-0 overflow-hidden' style={{ transform: 'translateX('+translateMenu+')'}}>
         <div className='bg-web-orange relative h-full duration-100 md:duration-500 ease-in-out md:flex md:items-center p-6 md:p-8 xl:p-14' style={{width: swidth}}>
-          <div className='w-[340px] md:w-[500px] mt-[100vh] md:relative absolute md:mt-0 ease-in-out duration-100 md:duration-500' style={ { opacity: opacityText, transform: 'translate(' + translateText + ',-150%)' } }>
+          <div className='w-[340px] md:w-[500px] mt-[100vh] md:relative absolute md:mt-0 ease-in-out duration-100 md:duration-500' style={ { opacity: opacityText, transform: 'translate(' + translateText + ',-300%)' } }>
             <Paragraph text={ 'I ❤ Development' } classes={ 'lato text-sm text-white italic mb-4' } />
             <Paragraph text={ 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis mauris pulvinar, lobortis augue eu.' } classes={ 'gilroy text-base xl:text-3xl md:text-2xl extra-bold text-white' } />
           </div>
