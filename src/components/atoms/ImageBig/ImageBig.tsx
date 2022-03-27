@@ -21,11 +21,11 @@ export const ImageBig: FunctionComponent<IProps> = ( { source,alt,classes } ) =>
   });
 
   useEffect(() => {
-    document.querySelectorAll('img').forEach(img => { observer.observe(img) });
+    document.querySelectorAll('img.big-image').forEach(img => { observer.observe(img) });
   }, [])
   
 
   return (
-    <img src={ source } alt={ alt } className={ classes } />
+    <img src={ source } alt={ alt } className={'big-image ' + classes } />
   )
 }
