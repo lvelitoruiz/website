@@ -7,7 +7,7 @@ interface IProps {
 
 export const TriggerMenu: FunctionComponent<IProps> = ({ openMenu,onClick }) => {
   return (
-    <div className='fixed top-[50%] left-2 translate-y-[-50%] z-50 hidden md:block'  onClick={ onClick }>
+    <div className='fixed top-[50%] left-2 translate-y-[-50%] z-50 hidden md:block cursor-pointer'  onClick={ onClick }>
       {
         openMenu ?
           <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" className='ml-12'>

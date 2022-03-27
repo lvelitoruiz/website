@@ -1,5 +1,7 @@
 import React, { FunctionComponent } from 'react';
+import { menuLinks } from '../../../enums/IndexText';
 import { MenuLink } from '../../atoms/MenuLink/MenuLink';
+import { Paragraph } from '../../atoms/Paragraph/Paragraph';
 
 interface IProps {
   area: string,
@@ -10,16 +12,16 @@ export const Menu: FunctionComponent<IProps> = ({ area,onClick }) => {
 
   const items = [
     {
-      link: './',
-      text: 'Home'
+      link: menuLinks.homeLink,
+      text: menuLinks.home
     },
     {
-      link: './about',
-      text: 'About me'
+      link: menuLinks.aboutLink,
+      text: menuLinks.about
     },
     {
-      link: './projects',
-      text: 'Projects'
+      link: menuLinks.projectsLink,
+      text: menuLinks.projects
     },
   ]
 
@@ -36,6 +38,11 @@ export const Menu: FunctionComponent<IProps> = ({ area,onClick }) => {
               return <p key={ link }><MenuLink text={text} link={link} onClick={ handleParent } /></p>
             })
           }
+          <div className='mt-24'>
+            <Paragraph classes={'lato text-sm px-4 mb-1'} text={menuLinks.location} />
+            <Paragraph classes={'lato extra-bold text-base px-4 mb-1'} text={menuLinks.phone} />
+            <Paragraph classes={'lato extra-bold text-base px-4 mb-1'} text={menuLinks.mail} />
+          </div>
         </div>
       </div>
       <div className='fixed z-30 w-full h-full top-0 left-0 bg-web-black opacity-40 duration-1000 ease-in-out' style={{ transform: 'translateX('+area+')'}}>

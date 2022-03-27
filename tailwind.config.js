@@ -16,7 +16,7 @@ module.exports = {
       'b-title-black': '##1D335A',
       'white': '#fff',
       'red': 'rgba(237, 100, 89)',
-      'links': '#4C4A56'
+      'links': '#6f6e77'
     },
     extend: {},
   },

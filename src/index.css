@@ -19,14 +19,16 @@
   
   .extra-title {
     font-family: 'gilroyextrabold';
-    @apply text-8xl break-all mt-2 text-title-gray;
-    line-height: 0.8em;
+    font-size: 90px;
+    @apply break-all mt-2 text-title-gray;
+    line-height: 0.9em;
   }
 
   .extra-title-orange {
     font-family: 'gilroyextrabold';
-    @apply text-8xl break-all mt-2 text-web-orange;
-    line-height: 0.8em;
+    font-size: 90px;
+    @apply break-all mt-2 text-web-orange;
+    line-height: 0.9em;
   }
 
   .gilroy {

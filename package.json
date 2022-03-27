@@ -1,5 +1,5 @@
 {
-  "homepage":"https://lvelitoruiz.github.io/website/",
+  "homepage": "https://lvelitoruiz.github.io/website/",
   "name": "lvelito-website",
   "version": "0.1.0",
   "private": true,
@@ -13,8 +13,11 @@
     "@types/react-dom": "^17.0.13",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-parallax": "^3.3.0",
     "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
+    "react-scroll-parallax": "^3.0.5",
+    "simple-parallax-js": "^5.6.2",
     "typescript": "^4.6.2",
     "web-vitals": "^2.1.4"
   },
