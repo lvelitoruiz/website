@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.db82f8ab.css",
-    "main.js": "/website/static/js/main.3e1115bd.js",
+    "main.css": "/website/static/css/main.a92f19aa.css",
+    "main.js": "/website/static/js/main.794310c8.js",
     "static/js/787.ae80f0d9.chunk.js": "/website/static/js/787.ae80f0d9.chunk.js",
     "static/media/3.jpg": "/website/static/media/3.c3c36ee016da7b50dc27.jpg",
     "static/media/imac2.jpg": "/website/static/media/imac2.dee71b145ae18ee4b317.jpg",
+    "static/media/entel.svg": "/website/static/media/entel.b98e4a05923e31a8e448cc55507ae870.svg",
     "static/media/gilroy-extrabold-webfont.woff": "/website/static/media/gilroy-extrabold-webfont.14b10560c697d7e3657e.woff",
     "static/media/gilroy-extrabold-webfont.woff2": "/website/static/media/gilroy-extrabold-webfont.ad45c87dccd6b161c439.woff2",
     "index.html": "/website/index.html",
-    "main.db82f8ab.css.map": "/website/static/css/main.db82f8ab.css.map",
-    "main.3e1115bd.js.map": "/website/static/js/main.3e1115bd.js.map",
+    "static/media/arrow.svg": "/website/static/media/arrow.377a106da674e91416bae8c48782bf17.svg",
+    "main.a92f19aa.css.map": "/website/static/css/main.a92f19aa.css.map",
+    "main.794310c8.js.map": "/website/static/js/main.794310c8.js.map",
     "787.ae80f0d9.chunk.js.map": "/website/static/js/787.ae80f0d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db82f8ab.css",
-    "static/js/main.3e1115bd.js"
+    "static/css/main.a92f19aa.css",
+    "static/js/main.794310c8.js"
   ]
 }
