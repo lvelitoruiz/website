@@ -1,13 +1,17 @@
 import React, { FunctionComponent, useEffect, useRef, useState } from 'react';
 import { ImageBig } from '../../atoms/ImageBig/ImageBig';
 import { Paragraph } from '../../atoms/Paragraph/Paragraph';
-import { Menu } from '../../molecules/Menu/Menu';
 import { TitleIntro } from '../../molecules/TitleIntro/TitleIntro';
 import one from '../../../assets/images/3.jpg';
 import { Title } from '../../atoms/Tiitle/Title';
 import { Heading } from '../../atoms/Heading/Heading';
-import { Links } from '../../atoms/Links/Links';
 import { LinkList } from '../../molecules/LinkList/LinkList';
+import { WorkBox } from '../../molecules/WorkBox/WorkBox';
+import imac from '../../../assets/images/imac2.jpg';
+import entel from '../../../assets/images/entel.svg';
+import arrow from '../../../assets/images/arrow.svg';
+import { Links } from '../../atoms/Links/Links';
+import { Image } from '../../atoms/Image/Image';
 interface IProps {
 
 };
@@ -204,9 +208,105 @@ export const HomeScreen: FunctionComponent<IProps> = () => {
               <Title stroke={'#424B68'} type={'extra-title'} text={'WORK'} width={'w-[160px]'} />
             </div>
             <div className='col-span-12 md:col-span-6 p-8 md:p-0'>
-              <Heading classes={'lato extra-bold italic text-3xl'} text={'A selection of 10 development projects.'} type={'h3'} />
-              <Paragraph text={"With more than 30 projects for more than 10 clients, we weren't going to show you everything... We preferred to give you a short selection. Good discovery."}
+              <Heading classes={'lato extra-bold italic text-3xl'} text={'A selection of 12 development projects.'} type={'h3'} />
+              <Paragraph text={"With more than 30 projects for more than 12 clients, we weren't going to show you everything... We preferred to give you a short selection. Good discovery."}
                          classes={'text-base leading-8 text-text-gray lato pr-[25%] mt-10 tracking-wide'} />
+            </div>
+          </div>
+          <div className='w-full grid grid-cols-12 gap-0 pt-24 md:pt-36 xl:mt-48 pb-24'>
+              <div className='col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3'>
+                <WorkBox img={ imac } imgAlt={ 'Imac on studio' } color={ '#78B1DC' } accent={'#3b3b3b'} hText={ 'Una visión global' } pText={ 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.' } />
+              </div>
+              <div className='col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3'>
+                <WorkBox img={ imac } imgAlt={ 'Imac on studio' } color={ '#DA5A37' } accent={'#3b3b3b'} hText={ 'Una visión global' } pText={ 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.' } />
+              </div>
+              <div className='col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3'>
+                <WorkBox img={ imac } imgAlt={ 'Imac on studio' } color={ '#ECC150' } accent={'#3b3b3b'} hText={ 'Una visión global' } pText={ 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.' } />
+              </div>
+              <div className='col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3'>
+                <WorkBox img={ imac } imgAlt={ 'Imac on studio' } color={ '#ECC150' } accent={'#3b3b3b'} hText={ 'Una visión global' } pText={ 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.' } />
+              </div>
+              <div className='col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3'>
+                <WorkBox img={ imac } imgAlt={ 'Imac on studio' } color={ '#78B1DC' } accent={'#3b3b3b'} hText={ 'Una visión global' } pText={ 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.' } />
+              </div>
+              <div className='col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3'>
+                <WorkBox img={ imac } imgAlt={ 'Imac on studio' } color={ '#DA5A37' } accent={'#3b3b3b'} hText={ 'Una visión global' } pText={ 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.' } />
+              </div>
+              <div className='col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3'>
+                <WorkBox img={ imac } imgAlt={ 'Imac on studio' } color={ '#ECC150' } accent={'#3b3b3b'} hText={ 'Una visión global' } pText={ 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.' } />
+              </div>
+              <div className='col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3'>
+                <WorkBox img={ imac } imgAlt={ 'Imac on studio' } color={ '#ECC150' } accent={'#3b3b3b'} hText={ 'Una visión global' } pText={ 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.' } />
+              </div>
+              <div className='col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3'>
+                <WorkBox img={ imac } imgAlt={ 'Imac on studio' } color={ '#78B1DC' } accent={'#3b3b3b'} hText={ 'Una visión global' } pText={ 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.' } />
+              </div>
+              <div className='col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3'>
+                <WorkBox img={ imac } imgAlt={ 'Imac on studio' } color={ '#DA5A37' } accent={'#3b3b3b'} hText={ 'Una visión global' } pText={ 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.' } />
+              </div>
+              <div className='col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3'>
+                <WorkBox img={ imac } imgAlt={ 'Imac on studio' } color={ '#ECC150' } accent={'#3b3b3b'} hText={ 'Una visión global' } pText={ 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.' } />
+              </div>
+              <div className='col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3'>
+                <WorkBox img={ imac } imgAlt={ 'Imac on studio' } color={ '#ECC150' } accent={'#3b3b3b'} hText={ 'Una visión global' } pText={ 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.' } />
+              </div>
+              <div className='col-span-12 p-6 flex justify-center mt-12'>
+                <Links text={'Show all projects'} link={'./'} classes={'lato text-2xl italic underline hover:text-web-orange duration-500 ease-in-out'} />
+              </div>
+          </div>
+          <div className='relative bg-web-black grid grid-cols-12 w-full py-24'>
+            <div className='col-span-8 col-start-3 grid grid-cols-12'>
+              <Heading classes={'text-3xl text-white col-span-12 mb-12 extra-bold gilroy'} text={'My Clients'} type={'h3'} />
+              <div className='col-span-12 md:col-span-6 lg:col-span-3 flex justify-center items-center h-48 mb-6'>
+               <Image classes={''} altText={'Entel'} source={entel} />
+              </div>
+              <div className='col-span-12 md:col-span-6 lg:col-span-3 flex justify-center items-center h-48 mb-6'>
+               <Image classes={''} altText={'Entel'} source={entel} />
+              </div>
+              <div className='col-span-12 md:col-span-6 lg:col-span-3 flex justify-center items-center h-48 mb-6'>
+               <Image classes={''} altText={'Entel'} source={entel} />
+              </div>
+              <div className='col-span-12 md:col-span-6 lg:col-span-3 flex justify-center items-center h-48 mb-6'>
+               <Image classes={''} altText={'Entel'} source={entel} />
+              </div>
+              <div className='col-span-12 md:col-span-6 lg:col-span-3 flex justify-center items-center h-48 mb-6'>
+               <Image classes={''} altText={'Entel'} source={entel} />
+              </div>
+              <div className='col-span-12 md:col-span-6 lg:col-span-3 flex justify-center items-center h-48 mb-6'>
+               <Image classes={''} altText={'Entel'} source={entel} />
+              </div>
+              <div className='col-span-12 md:col-span-6 lg:col-span-3 flex justify-center items-center h-48 mb-6'>
+               <Image classes={''} altText={'Entel'} source={entel} />
+              </div>
+              <div className='col-span-12 md:col-span-6 lg:col-span-3 flex justify-center items-center h-48 mb-6'>
+               <Image classes={''} altText={'Entel'} source={entel} />
+              </div>
+            </div>
+          </div>
+          <div className='col-span-12 bg-white h-48 grid grid-cols-12'>
+            <div className='col-span-12 grid grid-cols-12 h-full px-2'>
+              <div className='col-span-1 h-full hidden md:flex items-center'>
+                <Image classes={'md:h-10 xl:h-16 w-auto'} altText={''} source={arrow} />
+              </div>
+              <div className='col-span-3 h-full hidden lg:flex items-center'>
+                <div className='w-full'>
+                  <Paragraph text={'Sigue mi vida y mis eventos'} classes={'lato text-base mb-2'} />
+                  <Links classes={'gilroy extra-bold md:text-3xl xl:text-5xl hover:text-web-orange duration-500 ease-in-out'} text={'INSTAGRAM'} link={'./'} />
+                </div>
+              </div>
+              <div className='md:col-span-6 lg:col-span-3 h-full hidden md:flex items-center'>
+                <div className='w-full'>
+                  <Paragraph text={'Lee mi código'} classes={'lato text-base mb-2 md:pl-2 lg:pl-0'} />
+                  <Links classes={'gilroy md:pl-2 lg:pl-0 extra-bold md:text-5xl lg:text-3xl xl:text-5xl hover:text-web-orange duration-500 ease-in-out'} text={'GIT-HUB'} link={'./'} />
+                </div>
+              </div>
+              <div className='col-span-12 md:col-span-5 h-full flex items-center justify-center text-center md:justify-end md:text-right'>
+                <div className='w-full'>
+                  <Paragraph text={'2008 - 2022 based on Ate,Lima,Peru'} classes={'text-base lato mb-1 text-links'} />
+                  <Paragraph text={'+51 955 333 206'} classes={'text-base lato mb-1 text-web-black extra-bold'} />
+                  <Paragraph text={'pogolvelito@gmail.com'} classes={'text-base lato mb-1 text-web-black extra-bold'} />
+                </div>
+              </div>
             </div>
           </div>
         </div>
